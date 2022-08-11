@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1200px) {
+  .box-preco{
+    width: 270px;
+    margin-right: 5%;
+  }
+}
+@media only screen and (max-width: 1065px) {
+    
+    #header-2 img, #app img{
+        max-height: 300px;
+    }
+    #planos p:first-child{
+        padding: 0;
+    }
+    .grid-box-preco{
+        width: 100%;
+    }
+    .box-preco{
+        width: 250px;
+        
+    }
+    #contato {
+    height: inherit;
+    }
+    #contato p{
+    margin-bottom: 50px;
+    font-size: 1em;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .grid-box-preco{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box-preco{
+        width: 400px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    #contato p{
+        padding: 0 100px;
+    }
+
+}
+
+@media only screen and (max-width: 780px) {
+    
+    
+    #funcionalidades{
+        height: inherit;
+    }
+    .box-func{
+        display: block;
+    }
+    .container{
+        margin: 2%;
+    }
+    
+
+}
+
+@media only screen and (max-width:630px) {
+    #header-2 img, #app img:nth-child(2){
+       display: none;
+    }
+    nav{
+        display: none;
+    }
+    #contato p{
+        margin-bottom: 60px;
+        font-size: 0.9em;
+        padding: 0 100px;
+    }
+    
+}
+@media only screen and (max-width:520px){
+    
+}
