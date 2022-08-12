@@ -83,7 +83,7 @@
     .mobile-menu ul{
         display: flex;
         text-align: center;
-        padding: 1rem;
+        padding: 0;
         justify-content: space-evenly;
     }
     .mobile-menu .nav-item{
@@ -107,5 +107,6 @@
 
 }
 @media only screen and (max-width:520px){
+
     
 }
