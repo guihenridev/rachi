@@ -29,7 +29,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: inherit;
+    flex-wrap: wrap;
 }
 header img{
     max-width: 100px;

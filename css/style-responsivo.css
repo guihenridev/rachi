@@ -72,7 +72,36 @@
         font-size: 0.9em;
         padding: 0 100px;
     }
-    
+    .mobile-menu-icon{
+        background-color: transparent;
+        display: block;
+    }
+    .mobile-menu-icon button{
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul{
+        display: flex;
+        text-align: center;
+        padding: 1rem;
+        margin-left: 22%;
+    }
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.5rem;
+    }
+    .mobile-menu .login-button{
+        display: block;
+        padding: 1rem 2rem;
+
+    }
+    .mobile-menu .login-button button{
+        width: 100%;
+    }
+    .open{
+        display: block;
+    }
+
 }
 @media only screen and (max-width:520px){
     
