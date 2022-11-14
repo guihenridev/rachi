@@ -80,6 +80,14 @@
         border: none;
         cursor: pointer;
     }
+    .mobile-menu{
+        display: block;
+        opacity: 0;
+        transform: translateY(-30px);
+        transition: 0.3s;
+        margin-bottom: -70px;
+        z-index: -1;
+    }
     .mobile-menu ul{
         display: flex;
         text-align: center;
@@ -99,7 +107,10 @@
         width: 100%;
     }
     .open{
-        display: block;
+        opacity: 1;
+        transform: translateY(0);
+        margin-bottom: 0;
+        z-index: 100;
     }
     .nav-item{
         margin: 0;
